@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.left{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 30px;
+    
+}
+
+
+.right{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 200px;
+    padding-right: 50px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.keuze_login {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.klant{
+    background-color: lightgreen;
+    font-size: 125px;
+    padding: 125px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.medewerker{
+    background-color: lightgreen;
+    font-size: 125px;
+    padding: 125px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus { 
+    outline: none; 
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
